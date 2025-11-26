@@ -1,0 +1,14 @@
+[project]
+name = "earth-observation"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ee>=0.2",
+    "eefolium>=0.2.0",
+    "fastexcel>=0.18.0",
+    "geemap>=0.36.6",
+    "jupyter-contrib-nbextensions>=0.7.0",
+    "polars>=1.35.2",
+]
